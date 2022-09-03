@@ -15,7 +15,7 @@ public class Greeter {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name.toUpperCase();
   }
-
+  // giggity
   public static void main(String[] args) {
     String language = args[0];
     String country = args[1];
